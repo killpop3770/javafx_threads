@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nexus.alpha.MainController">
+   <children>
+      <ProgressBar fx:id="testBar" layoutX="200.0" layoutY="96.0" prefWidth="200.0" progress="0.0" />
+      <Label fx:id="timeField" layoutX="197.0" layoutY="171.0" prefHeight="58.0" prefWidth="207.0" style="-fx-border-color: gray;" />
+   </children>
+</Pane>
